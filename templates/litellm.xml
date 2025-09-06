@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>LiteLLM</Name>
-  <Repository>ghcr.io/berriai/litellm:main-latest</Repository>
+  <Repository>ghcr.io/berriai/litellm:main</Repository>
   <Registry>https://github.com/BerriAI/litellm/pkgs/container/litellm</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -12,7 +12,7 @@
   <Overview>LiteLLM provides a proxy server to manage auth, loadbalancing, and spend tracking across 100+ LLMs. All in the OpenAI format.</Overview>
   <Category>AI: Tools: Network:Web</Category>
   <WebUI>http://[IP]:[PORT:4000]/ui</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/Joly0/docker-templates/main/templates/litellm.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/gusswendson/docker-templates/main/templates/litellm.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/BerriAI/litellm/refs/heads/main/ui/litellm-dashboard/src/app/favicon.ico</Icon>
   <ExtraParams/>
   <PostArgs>--config /app/config.yaml --detailed_debug</PostArgs>
